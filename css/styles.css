@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-  color: #212121;  
+  color: #212121;
 }
 
 .fuente-de-WebStudio {
@@ -12,25 +12,50 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-}
+  }
+
+  .texto-estudio {
+    text-decoration: none;
+  }
+
+  .texto-portafolio {
+    text-decoration: none;
+  }
+
+.texto-contacto {
+    text-decoration: none;
+  }
 
 .texto-mail-y-telefono-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  }
+
+.texto-email {
   color: #757575;
+  text-decoration: none;
+} 
+
+.texto-telefono {
+  color: #757575;
+  text-decoration: none;
 }
+
+a:hover {
+  color: #2196F3;
+ }
 
 #titulo {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
-}
+  }
 
 .color-fondo-seccion-titulo {
-  background: #2F303A;
+  background: #2f303a;
   text-align: center;
 }
 
