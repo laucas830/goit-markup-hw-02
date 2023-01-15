@@ -1,5 +1,16 @@
 body {
-  font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   color: #212121;
+  background: #e5e5e5;
 }
 
+.fuente-de-WebStudio {
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+}
+
+.menu-navegacion-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
