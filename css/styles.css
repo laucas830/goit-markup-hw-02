@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-  color: #212121;
-  background: #e5e5e5;
+  color: #212121;  
 }
 
 .fuente-de-WebStudio {
@@ -14,3 +13,24 @@ body {
   font-size: 14px;
   line-height: 1.17;
 }
+
+.texto-mail-y-telefono-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #757575;
+}
+
+#titulo {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.color-fondo-seccion-titulo {
+  background: #2F303A;
+  text-align: center;
+}
+
