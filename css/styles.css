@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   color: #212121;
+  letter-spacing: 0.03em;
 }
 /*fuente del menu superierior de navegación excluyendo WebStudio*/
 .header-navigation-without-webstudio {
@@ -8,11 +9,26 @@ body {
   font-size: 14px;
   line-height: 1.17;
   }
+
+  /*eliminé el subyarado de todos  los enlaces*/
+  a {
+    text-decoration: none;
+  }
+
+  /*eliminé las viñetas de todas las ul*/
+  ul {
+    list-style-type: none;
+  }
   
-/*convertir en variable*/
+/*convertir en variable ooooooojooooooo*/
 a:hover {
   color: #2196F3;
  }
+
+ /* selector de clase para todos los parrafos, mejor lo cambiare a variable de color gris*/
+p {
+  color: #757575;
+}
 
 #titulo {
   font-weight: 900;
@@ -27,4 +43,61 @@ a:hover {
   background: #2f303a;
   text-align: center;
 }
+
+/*clase aplicada a los h3, seccion de beneficios de index*/
+.titles-company-benefits {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/*clase aplicada a los p, seccion de beneficios de index*/
+.text-company-benefits {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+ }
+
+ h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+}
+
+/*sección nuestro equipo en index, puedo convertirlo a variable*/
+.equipment-section {
+background: #F5F4FA;
+}
+
+/*clase aplicada a los h3, sección de nuestro equipo de index*/
+.titles-our-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/*clase aplicada a los p, seccion de nuestro equipo de index*/
+.text-our-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+ }
+
+ /*clase aplicada a los h3 de tarjetas de proyectos, portafolio*/
+.portfolio-card-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/*clase aplicada a los p de tarjetas de proyectos, portafolio*/
+.portafolio-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+ }
 
