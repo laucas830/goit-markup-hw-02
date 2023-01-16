@@ -8,24 +8,24 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  }
+}
 
-  /*eliminé el subyarado de todos  los enlaces*/
-  a {
-    text-decoration: none;
-  }
+/*eliminé el subyarado de todos  los enlaces*/
+a {
+  text-decoration: none;
+}
 
-  /*eliminé las viñetas de todas las ul*/
-  ul {
-    list-style-type: none;
-  }
-  
+/*eliminé las viñetas de todas las ul*/
+ul {
+  list-style-type: none;
+}
+
 /*convertir en variable ooooooojooooooo*/
 a:hover {
-  color: #2196F3;
- }
+  color: #2196f3;
+}
 
- /* selector de clase para todos los parrafos, mejor lo cambiare a variable de color gris*/
+/* selector de clase para todos los parrafos, mejor lo cambiare a variable de color gris*/
 p {
   color: #757575;
 }
@@ -36,9 +36,9 @@ p {
   line-height: 1.36;
   color: #ffffff;
   text-align: center;
-  }
+}
 
-  /*cambiar a ingles y verificar uso*/
+/*cambiar a ingles y verificar uso*/
 .color-fondo-seccion-titulo {
   background: #2f303a;
   text-align: center;
@@ -56,18 +56,18 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
- }
+}
 
- h2 {
-font-weight: 700;
-font-size: 36px;
-line-height: 1,16;
-text-align: center;
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
 }
 
 /*sección nuestro equipo en index, puedo convertirlo a variable*/
 .equipment-section {
-background: #F5F4FA;
+  background: #f5f4fa;
 }
 
 /*clase aplicada a los h3, sección de nuestro equipo de index*/
@@ -84,9 +84,9 @@ background: #F5F4FA;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
- }
+}
 
- /*clase aplicada a los h3 de tarjetas de proyectos, portafolio*/
+/*clase aplicada a los h3 de tarjetas de proyectos, portafolio*/
 .portfolio-card-titles {
   font-weight: 700;
   font-size: 18px;
@@ -99,5 +99,4 @@ background: #F5F4FA;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
- }
-
+}
