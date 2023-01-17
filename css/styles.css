@@ -172,6 +172,7 @@ h2 {
   padding: 10px 32px;
   border-radius: 4px;
   border:0px;
+  cursor: pointer;
   }
 
 .buttons-portafolio {
@@ -186,6 +187,14 @@ h2 {
   background: var(--color-9);
   border:0px;
   border-radius: 4px;
+  cursor: pointer;
+  }
+
+  /*botones de portafolio cambian de color de fuente 
+  y fondo al paso del cursor*/
+button:hover {
+    background:var(--color-1);
+    color: var(--color-4);
   }
 
   
