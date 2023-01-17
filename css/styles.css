@@ -1,11 +1,11 @@
 :root {
   --brand-font: "Roboto, sans-serif";
-  --color-1: #2193F3;
+  --color-1: #2193f3;
   --color-2: #212121;
   --color-3: #757575;
-  --color-4: #FFFFFF;
-  --color-5: #2F303A;
-  --color-6: #F5F4FA;
+  --color-4: #ffffff;
+  --color-5: #2f303a;
+  --color-6: #f5f4fa;
 }
 
 body {
@@ -16,10 +16,10 @@ body {
 
 /*propiedades del enlace WebStudio, en header y footer*/
 .text-webstudio {
-  font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1,19;
+  line-height: 1, 19;
   text-align: right;
   color: var(--color-1);
 }
@@ -33,7 +33,7 @@ body {
 }
 /*color de texto mail y telefono encabezado index y portafolio*/
 .color-mail-phone-header {
-  color: var(--color-3)
+  color: var(--color-3);
 }
 
 /*eliminé el subyarado de todos  los enlaces*/
@@ -129,14 +129,14 @@ h2 {
 /*color fondo footer index y portafolio*/
 .footer-background-color {
   background: var(--color-5);
-  }
+}
 
 /*clase aplicada a la direccion, footer*/
 .footer-address {
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  line-height: 1,71;
+  line-height: 1, 71;
   color: var(--color-4);
 }
 
@@ -145,13 +145,13 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  line-height: 1,71;
+  line-height: 1, 71;
   color: rgba(255, 255, 255, 0.6);
 }
 /*texto de Encuentranos en... footer de portafolio*/
 .social-media-title-footer {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1, 14;
   color: var(--color-4);
 }
