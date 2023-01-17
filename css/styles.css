@@ -195,7 +195,7 @@ h2 {
   cursor: pointer;
   }
 
-  /*botones de portafolio cambian de color de fuente 
+  /*botones cambian de color de fuente 
   y fondo al paso del cursor*/
 button:hover {
     background:var(--color-1);
