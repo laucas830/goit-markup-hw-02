@@ -39,6 +39,11 @@ body {
   color: var(--color-3);
 }
 
+/*clase para dar color-1 al nombre de la página actual de navegación*/
+.site-nav .nav-active {
+  color: var(--color-1)
+}
+
 /*eliminé el subyarado de todos  los enlaces*/
 a {
   text-decoration: none;
@@ -197,4 +202,3 @@ button:hover {
     color: var(--color-4);
   }
 
-  
