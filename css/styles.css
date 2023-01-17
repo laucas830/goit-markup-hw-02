@@ -1,13 +1,39 @@
+:root {
+  --brand-font: "Roboto, sans-serif";
+  --color-1: #2193F3;
+  --color-2: #212121;
+  --color-3: #757575;
+  --color-4: #FFFFFF;
+  --color-5: #2F303A;
+  --color-6: #F5F4FA;
+}
+
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   color: #212121;
   letter-spacing: 0.03em;
 }
+
+/*propiedades del enlace WebStudio, en header y footer*/
+.text-webstudio {
+  font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,19;
+  text-align: right;
+  color: var(--color-1);
+}
+
 /*fuente del menu superierior de navegación excluyendo WebStudio*/
 .header-navigation-without-webstudio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  color: var(--color-2);
+}
+/*color de texto mail y telefono encabezado index y portafolio*/
+.color-mail-phone-header {
+  color: var(--color-3)
 }
 
 /*eliminé el subyarado de todos  los enlaces*/
@@ -22,25 +48,21 @@ ul {
 
 /*convertir en variable ooooooojooooooo*/
 a:hover {
-  color: #2196f3;
+  color: var(--color-1);
 }
 
-/* selector de clase para todos los parrafos, mejor lo cambiare a variable de color gris*/
-p {
-  color: #757575;
-}
-
+/*id creado para el título*/
 #titulo {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #ffffff;
+  color: var(--color-4);
   text-align: center;
 }
 
-/*cambiar a ingles y verificar uso*/
-.color-fondo-seccion-titulo {
-  background: #2f303a;
+/*color y alineado de la seccion del título y botón 1*/
+.section-title-background-color {
+  background: var(--color-5);
   text-align: center;
 }
 
@@ -56,6 +78,7 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--color-3);
 }
 
 h2 {
@@ -67,7 +90,7 @@ h2 {
 
 /*sección nuestro equipo en index, puedo convertirlo a variable*/
 .equipment-section {
-  background: #f5f4fa;
+  background: var(--color-6);
 }
 
 /*clase aplicada a los h3, sección de nuestro equipo de index*/
@@ -84,6 +107,7 @@ h2 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  color: var(--color-3);
 }
 
 /*clase aplicada a los h3 de tarjetas de proyectos, portafolio*/
@@ -99,4 +123,35 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  color: var(--color-3);
+}
+
+/*color fondo footer index y portafolio*/
+.footer-background-color {
+  background: var(--color-5);
+  }
+
+/*clase aplicada a la direccion, footer*/
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1,71;
+  color: var(--color-4);
+}
+
+/*clase aplicada a mail y correo, footer*/
+.footer-mail-tel {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1,71;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*texto de Encuentranos en... footer de portafolio*/
+.social-media-title-footer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,14;
+  color: var(--color-4);
 }
