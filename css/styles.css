@@ -7,14 +7,30 @@
   --color-5: #2f303a;
   --color-6: #f5f4fa;
   --color-7: rgba(255, 255, 255, 0.6);
-  --color-8: #E5E5E5;
-  --color-9: #F5F4FA;
+  --color-8: #e5e5e5;
+  --color-9: #f5f4fa;
 }
 
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
   color: #212121;
   letter-spacing: 0.03em;
+}
+
+/*enlaces general: eliminé el subrayado y especifiqué el color general*/
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+/*eliminé las viñetas de todas las ul*/
+ul {
+  list-style-type: none;
+}
+
+/*efecto de los enlaces*/
+a:hover {
+  color: var(--color-1);
 }
 
 /*propiedades del enlace WebStudio, en header y footer*/
@@ -34,6 +50,7 @@ body {
   line-height: 1.17;
   color: var(--color-2);
 }
+
 /*color de texto mail y telefono encabezado index y portafolio*/
 .color-mail-phone-header {
   color: var(--color-3);
@@ -41,21 +58,6 @@ body {
 
 /*clase para dar color-1 al nombre de la página actual de navegación*/
 .site-nav .nav-active {
-  color: var(--color-1)
-}
-
-/*eliminé el subyarado de todos  los enlaces*/
-a {
-  text-decoration: none;
-}
-
-/*eliminé las viñetas de todas las ul*/
-ul {
-  list-style-type: none;
-}
-
-/*convertir en variable ooooooojooooooo*/
-a:hover {
   color: var(--color-1);
 }
 
@@ -134,6 +136,46 @@ h2 {
   color: var(--color-3);
 }
 
+.portafolio-cursor-cards {
+  cursor: pointer;
+}
+
+.button-studio {
+  font-family: var(--brand-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-4);
+
+  background: var(--color-1);
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 0px;
+}
+
+.buttons-portafolio {
+  font-family: var(--brand-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-2);
+
+  background: var(--color-9);
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*botones cambian de color de fuente y fondo al paso del cursor*/
+button:hover {
+  background: var(--color-1);
+  color: var(--color-4);
+}
+
 /*color fondo footer index y portafolio*/
 .footer-background-color {
   background: var(--color-5);
@@ -156,49 +198,3 @@ h2 {
   line-height: 1, 71;
   color: var(--color-7);
 }
-/*texto de Encuentranos en... footer de portafolio*/
-.social-media-title-footer {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1, 14;
-  color: var(--color-4);
-}
-
-.button-studio {
-  font-family: var(--brand-font);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1,87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--color-2);
-  
-  background: var(--color-9);
-  padding: 10px 32px;
-  border-radius: 4px;
-  border:0px;
-  cursor: pointer;
-  }
-
-.buttons-portafolio {
-  font-family: var(--brand-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--color-2);
-  
-  background: var(--color-9);
-  border:0px;
-  border-radius: 4px;
-  cursor: pointer;
-  }
-
-  /*botones cambian de color de fuente 
-  y fondo al paso del cursor*/
-button:hover {
-    background:var(--color-1);
-    color: var(--color-4);
-  }
-
